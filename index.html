@@ -3,25 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Order summary card</title>
 </head>
 <body>
-<div class="container">
-  <h1>Order Summary</h1>
-  <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+  <div class="bigimg"></div>
+  <div class="container">
+    <img src="images/illustration-hero.svg" alt="icon music" class="hero">
+    <h1>Order Summary</h1>
+   <p class="desc">You can now listen to millions of songs, audiobooks, and podcasts on any 
     device anywhere you like!</p>
-    <div>
-      Annual Plan
-      $59.99/year
+    <div class="princing">
+      <article>
+        <img src="images/icon-music.svg" alt="icon music">
+        <div><h4>Annual Plan</h4> <p>$59.99/year</p></div>
+        <button class="btn btn-change">Change</button>
+      </article>
     </div>
-    <button>Change</button>
-    <div class="buttons">
-      <button>Proceed to Paymen</button>
-      <button>Cancel Order</button>
+      <div class="buttons">
+      <button class="btn btn-primeiro">Proceed to Paymen</button>
+      <button class="btn btn-segundo">Cancel Order</button>
     </div>
-</div>
+  </div>
 </body>
 </html>
